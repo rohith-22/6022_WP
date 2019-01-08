@@ -1,0 +1,41 @@
+.photo {
+    float: right;
+    width: 26%;
+    /* background: blue; */
+    padding: 2%;
+    /* border: 1px solid black; */
+    /* background-image: url("bg.jpg"); */
+
+}
+body {
+    /* float: left; */
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: 87ceeb; */
+    /* width: 50%; */
+    /* background-image: url("bg.jpg"); */
+    /* background-color: lightblue; */
+}
+.heading {
+    /* float: left; */
+    font-family: initial;
+    /* width: 50%; */
+}
+.content {
+    float: left;
+    width: 66%;
+    /* background: red; */
+    padding: 2%;
+}
+.name {
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+    
+}
+.contact {
+    float: right;
+    width: 28%;
+}
+img{
+   
+}
