@@ -10,17 +10,18 @@
 body {
     /* float: left; */
     font-family: 'Times New Roman', Times, serif;
+    font-size: 105%;
     /* background-color: 87ceeb; */
     /* width: 50%; */
     /* border: solid; */
 
     /* background-image: url("bg.jpg"); */
 
-    background-color: lightblue;
+    /* background-color: lightblue; */
 }
 .heading {
-    border: solid gray;
-
+    /* border: solid gray; */
+    background-color: rgb(202, 238, 238);
     /* float: left; */
     font-family: initial;
     color:  rgb(97, 53, 0);
