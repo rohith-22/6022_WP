@@ -13,11 +13,14 @@ body {
     /* background-color: 87ceeb; */
     /* width: 50%; */
     /* background-image: url("bg.jpg"); */
-    /* background-color: lightblue; */
+
+    background-color: lightblue;
 }
 .heading {
     /* float: left; */
     font-family: initial;
+    color:  rgb(97, 53, 0);
+
     /* width: 50%; */
 }
 .content {
@@ -28,6 +31,7 @@ body {
 }
 .name {
     width: 100%;
+    color:  rgb(97, 53, 0);
     text-align: center;
     font-size: x-large;
     
@@ -35,7 +39,4 @@ body {
 .contact {
     float: right;
     width: 28%;
-}
-img{
-   
 }
