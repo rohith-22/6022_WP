@@ -12,11 +12,15 @@ body {
     font-family: 'Times New Roman', Times, serif;
     /* background-color: 87ceeb; */
     /* width: 50%; */
+    /* border: solid; */
+
     /* background-image: url("bg.jpg"); */
 
     background-color: lightblue;
 }
 .heading {
+    border: solid gray;
+
     /* float: left; */
     font-family: initial;
     color:  rgb(97, 53, 0);
