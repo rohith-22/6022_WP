@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Welcome to Quiz
+        </title>
+        <style>
+            .container-fluid{
+                background-color: rgb(168, 168, 168);
+                color: brown;
+
+            }
+            h1{
+                text-align: center;
+            }
+            .buttons{
+                padding: 20px;
+            }
+            .row1{
+                padding-left: 5%;
+            }
+            .jumbotron{
+                color: brown;
+                background-color: green;
+            }
+        </style>
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    </head>
+<body >
+    <div class="container-fluid">
+
+        <div class="jumbotron"> 
+                <h1><strong>Learning By Doing</strong></h1>
+        </div>
+        <div class="row1">
+            <p id="question"></p> <br>
+            <p id="options"></p>
+        </div>
+        <div class="buttons">
+            <button onclick="previous()" id ="prev"> previous</button>
+            <button style="float:right" onclick = "next()" id = "next">next</button>
+        </div>
+    </div>
+
+        <script type ="text/javascript" src = script.js> </script>
+        
+</body>
+</html>
