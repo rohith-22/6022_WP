@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+        <title>Response sheet</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">  
+        <link  href="commentbox.css" rel="stylesheet">
+
+<script type="text/javascript">
+function validateForm() {
+
+  var x = document.forms["myForm"]["words"].value;
+  var y = document.forms["myForm"]["comment"].value;
+  var z = document.forms["myForm"]["password"].value;
+  var formdata = [];
+  if (x == "" || y == "" || z == "") {
+    alert("Please Complete the form");
+    return false;
+  }
+  else if(z != "M$1t"){
+      alert("Please Enter Correct password");
+  }
+  else{
+    text = words.value;
+    text1 = comment.value;
+    document.getElementById("para").innerHTML = text
+    document.getElementById("words").innerHTML = "submit"
+    document.getElementById("printcomments").innerHTML = text1
+    document.getElementById("comment").innerHTML = "submit"
+    formdata.push(document.getElementById("para").value + "@" + document.getElementById("comment").value);
+    document.getElementById("myForm").reset();
+  }    
+}
+</script>
+</head>
+<body class="container">
+    <h1 class="jumbotron">Post your Comments here!</h1>
+<form id="myForm" action="/action_page.php" method="post" class="form">
+    Name: <br><textarea id="words" rows="2" cols="30"></textarea> <br> <br>
+  comment: <br> <textarea id="comment" rows="5" cols="30"></textarea> <br><br>
+  
+    Enter Password: <br> <textarea id="password" rows="1" cols="10"></textarea> <br><br>
+  <input type="button" onclick="return validateForm()" value="Submit">
+
+</form>
+        <p id="printcomments" class="print"></p>
+        <p id="para"></p>
+</div>
+
+</body>
+</html>
+
